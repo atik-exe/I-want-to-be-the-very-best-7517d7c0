@@ -1,0 +1,51 @@
+body {
+	background-color: grey;
+
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+	color: green;
+	font-size: 2em;
+}
+ul {font-size: xx-large;}
+ol {
+	font-size: xx-large;
+	color: red;
+}
+input {border-radius: 30%;}
+
+
+.poeder {
+	border: none;
+	border-radius: 50px;
+}
+
+.hoi {
+	border: none;
+	border-radius: 50px;
+}
+
+textarea {
+	border: 2px solid lime;
+}
+textarea:focus {
+	border: 2px solid red;
+}
+
+th {
+	border: 1px solid white;
+	padding: 10px;
+	background: rgba(100, 1200, 55, 0.6);
+	font-size: 150%;
+	width: 150px;
+	text-shadow: 1px 1px red;
+	box-shadow: 0 0 50px rgba(150, 150, 255, 0.5);
+}
+
+th[scope="teams"] {
+	width: 400px;
+} 
